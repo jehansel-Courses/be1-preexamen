@@ -1,24 +1,18 @@
-2024-08-08 16:12:14.957019-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
-2024-08-08 16:12:14.987325-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-SELECT * FROM VETERINARIOS [42104-230]
-2024-08-08 16:16:54.986035-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
-2024-08-08 16:16:55.072456-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-SELECT * FROM VETERINARIOS [42104-230]
-2024-08-08 16:21:03.855041-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
-2024-08-08 16:21:03.947972-05:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
-SELECT * FROM VETERINARIOS [42104-230]
-2024-08-08 16:21:53.075893-05:00 jdbc[3]: exception
+2024-08-08 15:25:47.348103-06:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
 INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
-2024-08-08 16:21:53.160991-05:00 jdbc[3]: exception
+2024-08-08 15:25:47.918108-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+2024-08-08 15:28:44.733985-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+2024-08-08 15:28:45.436990-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+2024-08-08 15:34:32.956574-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+2024-08-08 15:34:33.608581-06:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETERINARIOS" not found (this database is empty); SQL statement:
 SELECT * FROM VETERINARIOS [42104-230]

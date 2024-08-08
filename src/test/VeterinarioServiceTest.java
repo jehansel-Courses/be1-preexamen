@@ -24,7 +24,7 @@ class VeterinarioServiceTest {
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
-            connection =  DriverManager.getConnection("jdbc:h2:./veterinarios;INIT=RUNSCRIPT FROM 'create.sql'","sa","sa");
+            connection =  DriverManager.getConnection("jdbc:h2:./BaseDatos/preexamen;INIT=RUNSCRIPT FROM 'create.sql'","sa","sa");
         }catch (Exception e){
             logger.error(e.getMessage());
         }finally {

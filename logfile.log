@@ -16,3 +16,21 @@ SELECT * FROM VETERINARIOS [42104-230]
 INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
 [2024-08-08 16:21:53] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
 SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 15:25:01] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 15:25:02] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 15:25:47] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 15:25:47] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 15:28:44] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 15:28:45] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 15:34:32] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 15:34:33] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 15:36:33] [ INFO ] [DaoH2Veterinario:40] Veterinario guardado en base de datosVeterinario{id=1, nroLicencia='12345', nombre='Juan', apellido='Roldan', especialidad='Dentista'}
+[2024-08-08 15:36:33] [ INFO ] [DaoH2Veterinario:83] veterinario Veterinario{id=1, nroLicencia='12345', nombre='Juan', apellido='Roldan', especialidad='Dentista'}
