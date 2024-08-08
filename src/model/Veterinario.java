@@ -1,7 +1,7 @@
 package model;
 
 public class Veterinario {
-    private int id;
+    private Integer id;
     private  String nroLicencia;
     private String nombre;
     private String apellido;
@@ -14,7 +14,7 @@ public class Veterinario {
         this.especialidad = especialidad;
     }
 
-    public Veterinario(int id, String nroLicencia, String nombre, String apellido, String especialidad) {
+    public Veterinario(Integer id, String nroLicencia, String nombre, String apellido, String especialidad) {
         this.id = id;
         this.nroLicencia = nroLicencia;
         this.nombre = nombre;
@@ -22,11 +22,11 @@ public class Veterinario {
         this.especialidad = especialidad;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
