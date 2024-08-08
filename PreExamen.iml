@@ -7,19 +7,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../jars/h2-2.3.230.jar!/" />
+          <root url="jar://$MODULE_DIR$/../apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../jars/log4j-1.2.17.jar!/" />
+          <root url="jar://C:/Program Files (x86)/H2/bin/h2-2.3.230.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
