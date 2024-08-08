@@ -13,7 +13,7 @@ import java.util.List;
 public class DaoH2Veterinario implements IDao<Veterinario> {
 
     public static final Logger logger = Logger.getLogger(DaoH2Veterinario.class);
-    public static final String INSERT = "INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?)";
+    public static final String INSERT = "INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?)";
     public static  final String SELECT_ALL = "SELECT * FROM VETERINARIOS";
 
     @Override
@@ -65,22 +65,22 @@ public class DaoH2Veterinario implements IDao<Veterinario> {
     @Override
     public List<Veterinario> buscarTodos() {
         Connection connection = null;
-        List<Medicamento> medicamentos = new ArrayList<>();
-        Medicamento medicamentoDesdeLaDB = null;
+        List<Veterinario> veterinarios = new ArrayList<>();
+        Veterinario veterinarioDesdeLaDB = null;
         try{
             connection = H2Connection.getConnection();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(SELECT_ALL);
             while (resultSet.next()){
                 Integer id = resultSet.getInt(1);
-                String nombreMed = resultSet.getString(2);
-                String laboratorio = resultSet.getString(3);
-                int cantidad = resultSet.getInt(4);
-                double precio = resultSet.getDouble(5);
-                medicamentoDesdeLaDB = new Medicamento(id, nombreMed, laboratorio, cantidad, precio);
-                // vamos cargando la lista de medicamentos
-                medicamentos.add(medicamentoDesdeLaDB);
-                logger.info("medicamento "+ medicamentoDesdeLaDB);
+                String nroLicecia = resultSet.getString(2);
+                String nombre = resultSet.getString(3);
+                String apellido = resultSet.getString(4);
+                String especialidad = resultSet.getString(5);
+                veterinarioDesdeLaDB = new Veterinario (id, nroLicecia, nombre, apellido, especialidad);
+                // vamos cargando la lista de veterinarios
+                veterinarios.add(veterinarioDesdeLaDB);
+                logger.info("veterinario "+ veterinarioDesdeLaDB);
             }
 
         }catch (Exception e){
@@ -92,7 +92,7 @@ public class DaoH2Veterinario implements IDao<Veterinario> {
                 logger.error(e.getMessage());
             }
         }
-        return medicamentos;
+        return veterinarios;
 
     }
 }

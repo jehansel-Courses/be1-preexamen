@@ -1,0 +1,18 @@
+[2024-08-08 16:07:39] [ ERROR] [VeterinarioServiceTest:29] org.h2.Driver
+[2024-08-08 16:10:14] [ ERROR] [VeterinarioServiceTest:29] org.h2.Driver
+[2024-08-08 16:12:14] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 16:12:14] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 16:16:54] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 16:16:55] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 16:21:03] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES(DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 16:21:03] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
+[2024-08-08 16:21:53] [ ERROR] [DaoH2Veterinario:45] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+INSERT INTO VETERINARIOS VALUES (DEFAULT,?,?,?,?) [42104-230]
+[2024-08-08 16:21:53] [ ERROR] [DaoH2Veterinario:87] Table "VETERINARIOS" not found (this database is empty); SQL statement:
+SELECT * FROM VETERINARIOS [42104-230]
