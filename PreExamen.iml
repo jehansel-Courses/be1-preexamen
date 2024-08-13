@@ -8,15 +8,6 @@
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../jars/log4j-1.2.17.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="JUnit5.8.1">
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/" />
@@ -35,7 +26,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Jars/h2-2.3.230.jar!/" />
+          <root url="jar://$MODULE_DIR$/../apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files (x86)/H2/bin/h2-2.3.230.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -37,3 +37,5 @@ SELECT * FROM VETERINARIOS [42104-230]
 [2024-08-08 16:41:47] [ INFO ] [DaoH2Veterinario:40] Veterinario guardado en base de datosVeterinario{id=1, nroLicencia='12345', nombre='Juan', apellido='Roldan', especialidad='Dentista'}
 [2024-08-08 16:41:47] [ INFO ] [DaoH2Veterinario:83] veterinario Veterinario{id=1, nroLicencia='12345', nombre='Juan', apellido='Roldan', especialidad='Dentista'}
 [2024-08-09 16:20:49] [ INFO ] [DaoEnMemoria:17] veterinario guardado en memoria Veterinario{id=1, nroLicencia='33245', nombre='Laura', apellido='Atehortúa', especialidad='Pediatra'}
+[2024-08-09 16:34:30] [ INFO ] [DaoEnMemoria:17] veterinario guardado en memoria Veterinario{id=1, nroLicencia='33245', nombre='Laura', apellido='Atehortúa', especialidad='Pediatra'}
+[2024-08-12 21:03:10] [ INFO ] [DaoEnMemoria:17] veterinario guardado en memoria Veterinario{id=1, nroLicencia='33245', nombre='Laura', apellido='Atehortúa', especialidad='Pediatra'}
